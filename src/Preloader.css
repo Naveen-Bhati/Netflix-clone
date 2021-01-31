@@ -1,0 +1,22 @@
+@keyframes zoominoutsinglefeatured {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.cardcontainer img {
+  animation: zoominoutsinglefeatured 1.7s infinite;
+  width: 280px;
+  margin-top: 220px;
+  margin-left: 40%;
+}
+.cardcontainer {
+  background-color: black;
+  height: 100vh;
+}
